@@ -1,0 +1,12 @@
+inicio do projeto
+npm init
+
+Mysql
+npm install mysql --save
+
+Express
+npm instal express --save
+
+Body-parser
+npm install body-parser --save
+

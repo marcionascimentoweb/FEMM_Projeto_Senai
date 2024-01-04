@@ -1,0 +1,957 @@
+
+/* --------------- PAGINA INDEX --------------- */
+
+.home_fluid{ 
+    background-color: var(--primaria-light);
+}
+
+.home_cont{
+ background-color: var(--branca);
+}
+
+header{
+    width: 1200px;
+    height: 100px;
+    background-color: var(--primaria-normal);
+    position: fixed;
+    top: 1px;
+    display: flex;
+    z-index: 20;
+}
+
+.fundo_logotipo{
+    position: absolute;
+}
+
+.logotipo{
+   position: relative;
+   top: 20px;
+   left: 20px;
+}
+
+.navbar ul li a{
+    color: var(--branca);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 40px;
+    color: var(--branca);
+}
+
+nav ul li a{
+    color: var(--branca); 
+    font-size: 15px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 11px;
+}
+
+nav ul li a:hover {
+    background: var(--primaria-light-active);
+    color: var(--primaria-dark-active);
+    transition: all 500ms ease-in-out;
+    border-radius: 5px;
+}
+ 
+.btLogin{
+    display: flex;
+    align-items: center;
+}
+
+.botaoLogin{
+    width: 160px;
+    height: 40px;
+    background-color: var(--terciaria-normal);
+    color: var(--branca);
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ldDireito{
+    font-family: 'Saira', sans-serif;
+    
+}
+
+.fotoIndex{
+    width: 1200px;
+    height: 90vh;
+    margin-top: -20px;
+    position: relative;
+}
+
+.indexConteudo{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% transparente */
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    border: 5px ridge rgb(124, 16, 52, 0.3);
+}
+
+.indexTitulo{
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--primaria-dark-active);
+    font-family: 'Saira', sans-serif;
+    margin-bottom: -50px;
+}
+
+.indexSubTitulo{
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--primaria-dark-active);
+    margin-top: 80px;
+    font-family: 'Saira', sans-serif;
+}
+
+.femm{
+    color: var(--terciaria-normal);
+}
+
+.indexInterrogacao{
+    font-weight: 900;
+    font-size: 250px;
+    color: var(--primaria-normal);
+    font-family: 'Roboto', sans-serif;
+    margin-top: -90px;
+}
+
+
+/* --------------- QUEM SOMOS --------------- */
+
+
+.QuemSomosPai {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Saira', sans-serif;
+
+}
+
+.quem_somos_fluid {
+    background-color: var(--branca);
+}
+
+.quem_somos_cont {
+    background-color:#E7EFEB;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -20px;
+}
+
+.quem_somos_cont h1 {
+    font-family: 'Saira', sans-serif;
+    font-size: 50px;
+    color:  #0A4A2B;
+    font-weight: 900;
+}
+
+
+.quem_somos_cont .card-body {
+    text-align: justify;
+    background-color: var(--branca);
+    border-radius: 20px;
+    color: #0D6239;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    width: 450px;
+    height: 470px;
+}
+
+.quem_somos_cont .card2 {
+    margin: 0px 20px 20px;
+    height: 470px;
+    width: 450px;   
+}
+
+.card-group{
+    margin-bottom: 100px;
+}
+
+
+.quem_somos_cont .card-title {
+    font-size: 20px; /* Ajuste o tamanho do título conforme necessário */
+    color:  #0D6239;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    
+}
+
+.quem_somos_cont .card-subtitle {
+    font-size: 20px; /* Ajuste o tamanho do subtítulo conforme necessário */ 
+    color:  #0D6239;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.card-image{
+    width: 410px; 
+}
+
+.card-text {
+    font-size: 15px;
+
+}
+
+
+/* --------------- PLANOS --------------- */
+
+
+.planos_fluid {
+    background-color: var(--primaria-light);
+}
+
+.planos_cont{
+    background-color: #F2E7EB;
+}
+
+.planos_fluid {
+background-color: #F2E7EB;
+
+}
+
+.títuloPlanos{
+    font-size: 45px;
+    font-family: 'Saira', sans-serif;
+    color: #7C1034;
+    font-weight: 900;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.planos_area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.planos1{
+    width: 320px;
+    height: 460px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.planos2{
+    width: 320px;
+    height: 460px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.planos3{
+    width: 320px;
+    height: 460px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.imgPlanos{
+    position: relative;
+    width: 320px;
+    height: 204px;
+    z-index: 10;
+}
+
+.h2Planos{
+    position: absolute;
+    z-index: 11;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFFFFF; 
+
+}
+
+.textoPlanos1{
+    position: absolute;
+    z-index: 11;
+    margin-top: 70px;
+    margin-left: 95px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #D5DAB6;
+}
+
+.textoPlanos2{
+    position: absolute;
+    z-index: 11;
+    margin-top: 70px;
+    margin-left: 68px;
+    font-size: 29px;
+    font-weight: 600;
+    color: #B4CEC2;
+}
+
+
+.textoPlanos3{
+    position: absolute;
+    z-index: 11;
+    margin-top: 70px;
+    margin-left: 110px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #D6B5C0;
+}
+
+
+.listaPlanos1{
+    position: absolute;
+    margin-top: 20px;
+    color: #7C1034;
+    font-size: 16px;
+    font-family: 'Roboto','regular';
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: 5px;
+    list-style: none;
+}
+
+
+.buttonPlanos{
+width: 180px;
+height: 40px;
+margin-top: 200px;
+margin-left: 70px;
+margin-bottom: 10px;
+border-radius: 10px;
+background-color: #5D0C27;
+color: #D6B5C0;
+}
+
+.listaPlanos1{
+color: #7C1034;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+
+
+/* --------------- ACERVO --------------- */
+
+.acervo_fluid {
+    background-color: var(--secundaria-light);
+}
+
+.acervo_cont{
+    background-color: var(--secundaria-light-active);
+}
+
+.carouselCentralizado{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.banner{
+    margin-top: 10px;
+}
+
+.lancamentos{
+    margin-top: 40px;
+    color: var(--secundaria-normal);
+    font-family: 'Saira', sans-serif;
+}
+
+
+/* --------------- PROGRAMADORES --------------- */
+
+.programadores_fluid {
+    background-color: var(--primaria-light);
+}
+
+.programadores_cont{
+    background-color: var(--branca);
+}
+
+.programadores_cont .titulo{
+  color: var(--primaria-normal);
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Saira', sans-serif;
+}
+
+.cardProgramadores{
+ gap: 10px;
+ margin-top: 100px;
+}
+
+.cardPro{
+    width: 388px;
+    height: 210px;
+    background-color: var(--branca);
+    border: 1px solid var(--cinza);
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Saira', sans-serif;
+    box-shadow: 5px 5px 5px var(--primaria-light);
+}
+
+.cardFoto{
+    width: 50%;
+}
+.cardConteudo{
+    width: 50%;
+}
+
+.cardTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--primaria-normal);
+    margin: 0 auto;
+}
+
+.foto{
+    height: 208px;
+    width: 170px;
+}
+
+.cardSubTitulo{
+    display: flex;
+    color: var(--secundaria-normal);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.linha{
+    color: var(--primaria-normal);
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cardListas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: var(--primaria-dark);
+    margin-top: 10px;
+    list-style: none;
+}
+.cardListas li{
+    margin-left: -35px;
+}
+.estrelas{
+    margin-left: 4px;
+}
+
+.cardSuperior, .cardInferior{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+
+/* --------------- CONTATO --------------- */
+
+
+.contato_fluid {
+    background-color: var(--secundaria-light);
+}
+
+.contato_cont {
+    height: 800px; /* Altura total da seção */
+    background: linear-gradient(to right, #380717 0%, #380717 30%, #2B0612 25%, #2B0612 100%);
+}
+
+.ContatoPai{
+    /*border: yellow solid 1px;*/
+    display: inline-flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    /*flex-direction: column;*/
+    
+}
+
+.Info1{
+    /*border: cyan solid 1px;*/
+    width: 30%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 100%;
+    margin-top: -10px;
+
+}
+
+/*.hrlinha{
+    display: flex;
+}*/
+.linha1{
+width: 250px;
+height: 10px;
+color: red;
+}
+
+.linha2{
+width: 250px;
+height: 10px;
+color: red;
+}
+
+
+.Info2{
+   /* border: cyan solid 1px;*/
+    width:75%;
+    display: flex;
+    /*align-items: center;*/
+    
+}
+
+/*   FONTES  */
+
+.contato_fluid .titulo {
+    font-family: 'Saira', sans-serif;
+    color: #F2E7EB;
+    font-size: 45px; 
+    font-weight: 800;
+}
+
+.localizacao-titulo h2 {
+    font-family: 'Roboto', sans-serif; /* Substitua "SuaNovaFonte" pela fonte desejada */
+    font-weight: normal; /* Ajuste conforme necessário */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: #FFFFFF; /* Substitua #suaCor pela cor desejada em formato hexadecimal ou nome da cor */
+}
+
+.localizacao-texto p {
+    font-family: 'Roboto', sans-serif; /* Substitua "SuaFonteRegular" pela fonte regular desejada */
+    font-size: 16px; /* Ajuste conforme necessário */
+    color: FFFFFF; /* Substitua #suaCor pela cor desejada em formato hexadecimal ou nome da cor */
+}
+
+.email-titulo h2 {
+    font-family: 'Roboto', sans-serif; /* Substitua "SuaNovaFonte" pela fonte desejada */
+    font-weight: normal; /* Ajuste conforme necessário */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: #FFFFFF; /* Substitua #suaCor pela cor desejada em formato hexadecimal ou nome da cor */
+}
+
+.email-texto p {
+    font-family: 'Roboto', sans-serif; /* Substitua "SuaFonteRegular" pela fonte regular desejada */
+    font-size: 16px; /* Ajuste conforme necessário */
+    color: #FFFFFF; /* Substitua #suaCor pela cor desejada em formato hexadecimal ou nome da cor */
+}
+
+.contato-titulo h2 {
+    font-family: 'Roboto', sans-serif; /* Substitua "SuaNovaFonte" pela fonte desejada */
+    font-weight: normal; /* Ajuste conforme necessário */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: #FFFFFF; /* Substitua #suaCor pela cor desejada em formato hexadecimal ou nome da cor */
+}
+
+.contato-texto p {
+    font-family: 'Roboto', sans-serif; /* Substitua "SuaFonteRegular" pela fonte regular desejada */
+    font-size: 16px; /* Ajuste conforme necessário */
+    color: #FFFFFF; /* Substitua #suaCor pela cor desejada em formato hexadecimal ou nome da cor */
+}
+
+/* FIM DA FONTE*/
+
+
+
+/*LOCALIZAÇÃO*/
+.localizacao-container {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; Ajuste conforme necessário */
+    margin-left: -30px;
+  }
+  
+  .icone-container img {
+    width: 24px; /* Ajuste conforme necessário */
+    height: 24px; /* Ajuste conforme necessário */
+  }
+  
+  .localizacao-titulo h2 {
+    margin-left: 5px; /* Ajuste conforme necessário */
+    font-size: 16px; /* Ajuste conforme necessário */
+    margin-bottom: 0; /* Certifica-se de que não há margem inferior */
+    margin-top: -2px;
+  }
+  .localizacao-texto p {
+    margin-top: 80px; /* Ajuste conforme necessário para espaçamento entre o título e o texto */
+    margin-bottom: 5;
+    margin-left: -110px;
+  }
+  
+
+
+
+  /*EMAIL*/
+  .email-container {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; Ajuste conforme necessário */
+    margin-left: 20px;
+  }
+  
+  .email-container img {
+    width: 24px; /* Ajuste conforme necessário */
+    height: 24px; /* Ajuste conforme necessário */
+  }
+  
+  .email-titulo h2 {
+    margin-left: 5px; /* Ajuste conforme necessário */
+    font-size: 16px; /* Ajuste conforme necessário */
+    margin-bottom: 0; /* Certifica-se de que não há margem inferior */
+    margin-top: -6px; /* Ajuste conforme necessário, valor negativo eleva o título */
+  }
+  
+  .email-texto p {
+    margin-top: 40px; /* Ajuste conforme necessário para espaçamento entre o título e o texto */
+    margin-bottom: 0;
+    margin-left: -52px;
+  }
+  
+
+
+  /* CONTATO */
+  
+  .contato-container {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; Ajuste conforme necessário */
+    margin-left: -30px;
+  }
+  
+  .contato-container img {
+    width: 24px; /* Ajuste conforme necessário */
+    height: 24px; /* Ajuste conforme necessário */
+  }
+  
+  .contato-titulo h2 {
+    margin-left: 5px; /* Ajuste conforme necessário */
+    font-size: 16px; /* Ajuste conforme necessário */
+    margin-bottom: 0; /* Certifica-se de que não há margem inferior */
+    margin-top: -6px; /* Ajuste conforme necessário, valor negativo eleva o título */
+  }
+  
+  .contato-texto p {
+    margin-top: 50px; /* Ajuste conforme necessário para espaçamento entre o título e o texto */
+    margin-bottom: 0;
+    margin-left: -80px;
+    
+  }
+
+
+
+/* Estilo para o formulário de contato */
+
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -15px;
+    
+}
+
+.box {
+    margin-bottom: 10px;
+    /*border: red solid 1px;*/
+    
+
+}
+
+.box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+#nome {
+    width: 720px; /* Largura desejada */
+    height: 40px; /* Altura desejada */
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 123px;
+}
+label[for="nome"] {
+    margin-left: 123px; /* Ajuste conforme necessário */
+}
+
+
+#email {
+    width: 350px; /* Largura desejada */
+    height: 40px; /* Altura desejada */
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 123px;
+}
+label[for="email"] {
+    margin-left: 123px; /* Ajuste conforme necessário */
+}
+
+/* Estilo específico para o campo de input "WHATSAPP" */
+
+.box label {
+    
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Sua Fonte' pela fonte desejada */
+    font-size: 20px; /* Tamanho da fonte */
+    color: #FFFFFF;
+} 
+
+
+#whatsapp {
+    width: 350px;
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+label[for="whatsapp"] {
+    margin-left: 50px; /* Ajuste conforme necessário */
+}
+
+#mensagem {
+    width: 720px; /* Largura desejada */
+    height: 110px; /* Altura desejada */
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 124px;
+}
+
+label[for="mensagem"] {
+    margin-left: 124px; /* Ajuste conforme necessário */
+}
+
+
+
+.box input[type="text"],
+.box textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #D6B5C0;
+    border: none;
+}
+
+.box-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.box-group .box {
+    width: calc(50% - 5px);
+    
+}
+
+.box-message {
+    width: 100%;
+}
+
+.button {
+    width: 160px; /* Largura desejada */
+    height: 40px; /* Altura desejada */
+    background-color: #7C1034;
+    font-weight: normal;
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 685px;
+    
+}
+
+
+
+
+/* --------------- FOOTER --------------- */
+
+.footer_fluid {
+    background-color: var(--primaria-light);
+}
+
+.footer_cont{
+    background-color: var(--branca);
+
+}
+
+.areaTotal{
+width: 1200px;
+height: 800px;
+background-color: chartreuse;
+display: flex;
+}
+
+.ldDireitoFooter{
+    width: 50%;
+    height: 800px;
+    background-color: var(--secundaria-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ldEsquerdoFooter{
+    width: 50%;
+    height: 800px;
+    background-color: var(--secundaria-darker);
+ 
+}
+
+.logoFooter{
+    height: 140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterTitulo{
+    font-family: 'Roboto', sans-serif;
+    color: var(--branca);
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.listaFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.lista{
+    margin-left: 20px;
+    
+}
+
+.listasMenu{
+    list-style: none;
+    color: var(--branca);
+    font-size: 25px;
+    font-family: 'Saira', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.apoioFooter{
+    width: 500px;
+    height: 150px;
+    background-color: var(--branca);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.ApoioTitulo{
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    color: var(--secundaria-normal);
+    
+}
+
+.listasFooter{
+    color: var(--branca);
+    text-decoration: none;
+}
+
+.menuFooter ul li a{
+    color: var(--branca);
+    text-decoration: none;
+}
+
+
+/* -------------------------------------- RESPONSIVO --------------------------*/
+/*Dispositivos médios (tablets com 768px ou mais)*/
+
+@media (max-width: 576px) { 
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.nav{
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: var(--primaria-normal);
+    color: #B4CEC2;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.btLogin{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.indexConteudo{
+    margin-top: 300px;
+    width: 400px;
+    height: 400px;
+}
+.indexTitulo{
+     font-size: 40px;
+     margin-bottom: -50px;
+}
+
+.indexSubTitulo{
+    font-size: 40px;
+    margin-top: 80px;
+
+}
+
+
+ }
+

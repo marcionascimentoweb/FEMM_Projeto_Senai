@@ -1,0 +1,115 @@
+/* CORES */
+
+:root {
+    --primaria-light: #F2E7EB;
+    --primaria-light-hover: #EBDBE1;
+    --primaria-light-active: #D6B5C0;
+    --primaria-normal: #7C1034;
+    --primaria-normal-hover: #700E2F;
+    --primaria-normal-active: #630D2A;
+    --primaria-dark: #5D0C27;
+    --primaria-dark-hover: #4A0A1F;
+    --primaria-dark-active: #380717;
+    --primaria-darker: #2B0612;
+
+    --secundaria-light: #E7EFE3;
+    --secundaria-light-hover: #DBE7E1;
+    --secundaria-light-active: #B4CEC2;
+    --secundaria-normal: #0D6239;
+    --secundaria-normal-hover: #0C5833;
+    --secundaria-normal-active: #0A4E2E;
+    --secundaria-dark: #0A4A2B;
+    --secundaria-dark-hover: #083b22;
+    --secundaria-dark-active: #062C1A;
+    --secundaria-darker: #052214;
+
+    --terciaria-light: #F1F3E7;
+    --terciaria-light-hover: #EAEDDB;
+    --terciaria-light-active: #D5DAB6;
+    --terciaria-normal: #768812;
+    --terciaria-normal-hover: #6A7A10;
+    --terciaria-normal-active: #5E6D0E;
+    --terciaria-dark: #59660E;
+    --terciaria-dark-hover: #47520B;
+    --terciaria-dark-active: #353D08;
+    --terciaria-darker: #293006;
+
+    --branca: #FFF;
+    --Preto: #000;
+    --cinza: #D2D3D5;
+    --vermelho: #DA0A23;
+}
+
+/* FONTES */
+/*Robot (font-family: 'Roboto', sans-serif;)*/
+/* Saira (font-family: 'Saira Condensed', sans-serif;) */
+/*font-family: 'Roboto', sans-serif;
+/*font-family: 'Saira', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container-total{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: var(--cinza);*/
+  }
+
+  .container-nucleo{
+    max-width: 1200px;
+    min-height: calc(100vh);
+    padding-top: 120px;
+    margin: 0 auto;
+
+  }
+
+
+  h1{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    }
+  
+  .titulo{
+    font-size: 45px;
+  }
+
+  h2{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  h3{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  h4{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+ }
+
+ p{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+      
+  
+  
+  
+  

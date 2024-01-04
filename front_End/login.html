@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!--CSS-->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./css/elementos.css">
+    
+        <!--BOOSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <script src="./javascript/enviarLogin.js"></script>
+    
+        <title>FEMM biblioteca Virtual</title>
+    </head>
+<body>
+    <section id="home" class="home_fluid container-total">
+        <div class="home_cont container-nucleo">
+            <header>
+                <div>
+                    <img class = "fundo_logotipo" src ="./assets/img/Logotipo_BG.svg" alt="fundo do logotipo">
+                    <img class = "logotipo" src="./assets/img/FEMM_logotipo 1.svg" alt="logotipo">
+                </div>
+                    <nav class="nav">
+                        <ul>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#home">HOME</a></li>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#quem_somos">QUEM SOMOS</a></li>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#planos">PLANOS</a></li>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#acervo">ACERVO</a></li>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#programadores">PROGRAMADORES</a></li>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#contato">CONTATO</a></li>
+                          <li><a href="http://127.0.0.1:5500/front_End/index.html#footer">FOOTER</a></li>
+                        </ul>
+                      </nav>
+                
+                  <div class="btLogin">
+                    <button class="botaoLogin">LOGIN</button>
+                  </div>
+            </header>
+            <main class="loginPrincipal">
+                <aside class="loginFoto">
+                    <img src="./assets/img/login.png" alt="imagem principal">
+                </aside>
+                <article class="loginDados">
+                    <div class="dadosFundo">
+                        <div class="loginLogotipo">
+                            <img class="logotipoInput" src="./assets/img/FEMM_logotipo 1.svg" alt="logotipo do login">
+                        </div>
+                        <form class="loginForm">
+                            <label for="email">Email:</label>
+                            <input type="email" class="loginEmail" id="loginEmail" placeholder="Digite seu email"><br>
+                            <label for="senha">Senha:</label>
+                            <input type="password" class="loginPassword" id="loginPassword" placeholder="Digite a sua senha"><br><br>
+
+                            <button class="loginBotao" onclick="enviarLogin()">Submit</button>
+                                                       
+                            <p class="loginMensagem">Não tem conta ? <span>Crie sua conta.</span></p>
+
+                            <div id="resultado">
+
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </main>
+
+        </div>
+    </section>
+    
+</body>
+</html>

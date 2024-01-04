@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .home_cont{
+      background-color: var(--branca);
+  }
+
+.loginDados{
+    width: 600px;
+    height: 700px;
+    background-color: var(--secundaria-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dadosFundo{
+    width: 400px;
+    height: 600px;
+    background-color: var(--branca);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLogotipo{
+    display: flex;
+}
+
+.logotipoInput{
+    width: 180x;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    bottom: -40px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 80px;
+}
+::placeholder{
+    color: var(--secundaria-light-active);
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+
+
+label{
+    color: var(--secundaria-normal-active);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Saira', sans-serif;
+    position: relative;
+    left: 15px;
+    padding: 5px;
+}
+input{
+    border: 1px solid var(--secundaria-normal-active);
+    width: 320px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+}
+
+input:hover{
+    box-shadow: 2px 2px 2px var(--secundaria-light);
+}
+
+input:active{
+    background-color: var(--secundaria-light);
+    border: none;
+}
+
+.loginBotao{
+    width: 320px;
+    height: 35px;
+    background-color: var(--secundaria-normal-active);
+    border: none;
+    border-radius: 5px;
+    color: var(--branca);
+    margin-bottom: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Saira', sans-serif;
+}
+
+.loginBotao:hover{
+    color: var(--secundaria-dark-hover);
+    font-weight: bolder;
+    background-color: var(--secundaria-light);
+}
+.loginBotao:active{
+    background-color: var(--primaria-normal);
+    color: var(--branca);
+}
+
+.loginMensagem{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--secundaria-normal-active);
+    cursor: pointer;
+    font-family: 'Saira', sans-serif;
+}
+span{
+    font-weight: bolder;
+}

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/elementos.css">
+
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="./javascript/login.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>FEMM biblioteca Virtual</title>
+</head>
+<body>
+    <section id="home" class="home_fluid container-total">
+        <div class="home_cont container-nucleo">
+            <header>
+                <div>
+                    <img class = "fundo_logotipo" src ="./assets/img/Logotipo_BG.svg" alt="fundo do logotipo">
+                    <img class = "logotipo" src="./assets/img/FEMM_logotipo 1.svg" alt="logotipo">
+                </div>
+                    
+                    <nav class="nav navbar navbar-expand-lg ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#quem_somos">QUEM SOMOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#planos">PLANOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#acervo">ACERVO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#programadores">PROGRAMADORES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">CONTATO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">FOOTER</a>
+                            </li>
+                          </ul>
+                        </div>
+                        
+                      </nav>
+                
+                  <div class="btLogin">
+                    <button class="botaoLogin" onclick="login()">LOGIN</button>
+                  </div>
+            </header>
+            <main class="main">
+                <img class="fotoIndex" src="./assets/img/FotoIndex.png" alt="foto da tela Index">
+                <div class="indexConteudo">
+                    <div class="ldDireito">
+                        <h1 class="indexTitulo">QUER UMA <br>BIBLIOTECA <br>EM SUA CASA</h1>
+                        <h1 class="indexSubTitulo">ASSINE, <span class="femm">FEMM</span></h1>
+                    </div>
+                    <div class="ldEsquerdo">
+                        <p class="indexInterrogacao">?</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+      
+        <section id="quem_somos" class="quem_somos_fluid container-total">
+            <div class="quem_somos_cont container-nucleo">
+                <h1 class="titulo">QUEM SOMOS</h1>
+                <div class="row QuemSomosPai">
+                    <div class="card-group">
+                        <div class="col-md-6">
+                            <div class="card1">
+                                <div class="card-body">
+                                    <!-- Conteúdo do primeiro card -->
+                                    <h5 class="card-title">O que é a FEMM Livros?</h5>
+                                    <p class="card-text justify-text">Bem-vindo(a) à FEMM Livros Online, onde a paixão pela leitura encontra a conveniência do aluguel. Somos uma comunidade de leitores comprometidos em tornar a leitura acessível, sustentável e envolvente. Na FEMM, oferecemos uma variedade cuidadosamente selecionada de títulos, promovemos a troca de histórias entre nossos membros e nos esforçamos para criar uma experiência de aluguel descomplicada. Conecte-se conosco e descubra um novo mundo de leitura!.</p>
+                                    <h6 class="card-subtitle">Missão e Compromisso</h6>
+                                    <p class="card-text justify-text">Na FEMM Livros Online, nossa missão é simplificar sua jornada literária, oferecendo uma variedade de títulos emocionantes. Comprometemo-nos a tornar a leitura mais sustentável, proporcionando uma experiência de aluguel fácil e eficiente. Na FEMM, não apenas compartilhamos livros; conectamos leitores a narrativas que inspiram e transformam. Junte-se a nós na FEMM Livros Online e descubra uma comunidade apaixonada por histórias e dedicada a facilitar seu acesso à magia da leitura.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card2">
+                                    <!-- Conteúdo do segundo card -->
+                                    <img class="card-image" src="assets/img/quemsomosimg.svg" alt="livrariaquemsomos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+     
+    <section id="planos" class="planos_fluid container-total">
+        <div class="planos_cont container-nucleo">
+            <h1 class="títuloPlanos">ESCOLHA SEU PLANO!</h1>
+            <div class="planos_area">
+                <div class="planos1">
+                    <div class="preços">
+                        <h2 class="h2Planos">R$ 29,99</h2>
+                        <p class="textoPlanos1">MENSAL</p>
+                        <img class="imgPlanos" src="./assets/img/plano 1.svg" alt="">
+                    </div>
+                    <ul class="listaPlanos1">
+                        <li> <img src="./assets/img/check.svg" alt=""> 10 Livros do acervo</li>
+                        <li> <img src="./assets/img/check.svg" alt=""> Suporte 24 horas</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 3</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 4</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 5</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 6</li>
+                    </ul>
+                    <button class="buttonPlanos">COMPRAR</button>
+                </div>
+                <div class="planos2">
+                    <div class="preços">
+                        <h2 class="h2Planos">R$ 49,99</h2>
+                        <p class="textoPlanos2">SEMESTRAL</p>
+                        <img class="imgPlanos" src="./assets/img/plano 2.svg" alt="">
+                    </div>
+                    <ul class="listaPlanos1">
+                        <li> <img src="./assets/img/check.svg" alt=""> 30 livros do acervo</li>
+                        <li> <img src="./assets/img/check.svg" alt=""> Suporte 24 horas</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 3</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 4</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 5</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 6</li>
+                    </ul>
+                    <button class="buttonPlanos">COMPRAR</button>
+                </div>
+                <div class="planos3">
+                    <div class="preços">
+                        <h2 class="h2Planos">R$ 99,99</h2>
+                        <p class="textoPlanos3">ANUAL</p>
+                        <img class="imgPlanos" src="./assets/img/plano (3).svg" alt="">
+                    </div>
+                    <ul class="listaPlanos1">
+                        <li> <img src="./assets/img/check.svg" alt=""> Todo acervo liberado</li>
+                        <li> <img src="./assets/img/check.svg" alt=""> Suporte 24 horas</li>
+                        <li> <img src="./assets/img/check.svg" alt=""> Atendimento preferencial</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 4</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 5</li>
+                        <li> <img src="./assets/img/x 6.svg" alt=""> Opçao 6</li>
+                    </ul>
+                    <button class="buttonPlanos">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+
+    <section id="acervo" class="acervo_fluid container-total">
+        <div class="acervo_cont container-nucleo">
+            <!--Carrosel com os banner-->
+            <div id="carouselExampleAutoplaying" class="carousel slide banner" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./assets/banner/banner1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./assets/banner/banner2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./assets/banner/banner3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                      <div class="carousel-item">
+                    <img src="./assets/banner/banner4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Carrosel com capas-->
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner carouselCentralizado">
+                  <div class="carousel-item active">
+                    <img src="./assets/banner/capa_livros_adm.jpg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/banner/capa_livros_brincando.jpg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/banner/capa_livros_codigo_limpo.jpg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/banner/capa_livros_historia_Psicologia.jpg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/banner/capa_livros_manual_direito.jpg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/banner/capa_livros_psicologia1.jpg" class="d-block" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                       
+        </div>
+    </section>
+
+    <section id="programadores" class="programadores_fluid container-total">
+        <div class="programadores_cont container-nucleo">
+            <h1 class="titulo">OS PROGRAMADORES</h1>
+            <div class="cardProgramadores">
+                <div class="cardSuperior">
+                           <!--Felipe-->
+                           <div class="cardPro cardFelipe">
+                            <div class="cardFoto">
+                                <img class="foto" src="./assets/img/fotoFelipe.png" alt="Felipe">
+                            </div>
+                            <div class="cardConteudo">
+                                <div class="cardTitulo">FELIPPE</div>
+                                <div class="cardSubTitulo">PÓS GRADUADO EM <br> BANCO DE DADOS</div>
+                                <hr class="linha">
+                                <ul class="cardListas">
+                                    <li>Oracle  <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    <li>NoSQL <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    <li>PostgreSQL <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    <li>Clound <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <!--Elton-->
+                        <div class="cardPro cardElton">
+                            <div class="cardFoto">
+                                <img class="foto" src="./assets/img/FotoElton.jpeg" alt="Elton">
+                            </div>
+                            <div class="cardConteudo">
+                                <div class="cardTitulo">ELTON</div>
+                                <div class="cardSubTitulo">GRADUADO EM MARKETING<br>COM ESPECIALIDADE EM <br>DESIGNER UX/UI</div>
+                                <hr class="linha">
+                                <ul class="cardListas">
+                                    <li>Desi. UI/UX  <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    <li>Prototipos <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    <li>Marketing <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    <li>CEO<span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+         
+                <div class="cardInferior">
+                              <!--Mauricio-->
+                              <div class="cardPro cardMauricio">
+                                <div class="cardFoto">
+                                    <img class="foto" src="./assets/img/Foto_Mauricio.jpg" alt="Elton">
+                                </div>
+                                <div class="cardConteudo">
+                                    <div class="cardTitulo">MAURICIO</div>
+                                    <div class="cardSubTitulo">PÓS GRADUADO EM FRONT END</div>
+                                    <hr class="linha">
+                                    <ul class="cardListas">
+                                        <li>Javascript  <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                        <li>HTML/CSS <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                        <li>Reactive <span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                        <li>Native<span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                <!--Marcio-->
+                    <div class="cardPro cardMarcio">
+                        <div class="cardFoto">
+                            <img class="foto" src="./assets/img/fotoMarcio.png" alt="Marcio">
+                        </div>
+                        <div class="cardConteudo">
+                            <div class="cardTitulo">MARCIO</div>
+                            <div class="cardSubTitulo">PÓS GRADUADO EM <br>BACK END COM CLOUND</div>
+                            <hr class="linha">
+                            <ul class="cardListas">
+                                <li>Java<span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                <li>NODE<span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                <li>AWA<span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                                <li>QA<span class="estrelas"><img src="./assets/icon/estrelas.svg"> </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+      
+                    
+                </div>
+                
+            </div>
+        
+    </section>
+
+      <section id="contato" class="contato_fluid container-total">
+        <div class="contato_cont container-nucleo">
+            <h1 class="titulo">Contato</h1>
+
+            <div data-aos="fade-up">
+                <iframe style="border:0; width: 1000px; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1093.6308437287378!2d-43.308584185218685!3d-22.78315007224043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x990add907a0ad7%3A0x248c02f75dc2a385!2sSENAI%20Caxias!5e0!3m2!1spt-BR!2sbr!4v1698240563185!5m2!1spt-BR!2sbr"></iframe>
+              </div>
+
+            <div class="ContatoPai">
+                <div class="Info1">
+                <div class="localizacao-container titulo">
+                    <div class="icone-container">
+                        <img src="assets/icon/map-pin 1.svg" alt="Ícone">
+                    </div>
+                    <div class="localizacao-titulo">
+                        <h2>LOCALIZAÇÃO:</h2>
+                    </div>
+                    <div class="localizacao-texto">
+                        <p>Travessa Goulart, sn - Centro <br> Duque de Caxias - RJ.</p>
+                    </div>
+                </div>
+    
+
+                <div class="hrlinha">
+                <hr class="linha1">
+                </div>
+
+
+                <div class="email-container titulo">
+                    <div class="icone-container">
+                        <img src="assets/icon/mail 1.svg" alt="Ícone">
+                    </div>
+                    <div class="email-titulo">
+                        <h2>EMAIL:</h2>
+                    </div>
+                    <div class="email-texto">
+                        <p>feemmbibliotecavirtual@gmail.com</p>
+                    </div>
+                </div>
+    
+
+                <div class="hrlinha">
+                <hr class="linha2">
+                </div>
+
+                <div class="contato-container titulo">
+                    <div class="icone-container">
+                        <img src="assets/icon/phone 1.svg" alt="Ícone">
+                    </div>
+                    <div class="contato-titulo">
+                        <h2>CONTATO:</h2>
+                    </div>
+                    <div class="contato-texto">
+                        <p>(21) 2345-678 / 9-9999-9999</p>
+                    </div>
+                    
+                </div> 
+            </div>
+                <!-- FORM-->
+                <div class="Info2">
+                <div class="container">
+                    <div class="box form-box">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+            
+                <div class="box-group form-box">
+                    <div class="box form-box">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+            
+                    <div class="box form-box">
+                        <label for="whatsapp">Whatsapp:</label>
+                        <input type="text" id="whatsapp" name="whatsapp">
+                    </div>
+                </div>
+                <div class="box form-box box-message">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                </div>
+                <button class="button">ENVIAR</button>
+            </div>            
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer_fluid container-total">
+        <div class="footer_cont container-nucleo">
+            <div class="areaTotal">
+                <div class="ldDireitoFooter">
+                    <img class="logoFooter" src="./assets/img/FEMM_logotipo_footer_novo.svg" alt="logotipo">
+                </div>
+                <div class="ldEsquerdoFooter">
+                    <div class="FooterTitulo">
+                        <h1>Siga nossas redes sociais:</h1>
+                    </div>
+                    <div class="redesSociaisFooter">
+                        <ul class="listaFooter">
+                            <li class="lista"><img src="./assets/icon/whatsapp 1.svg" alt=""></li>
+                            <li class="lista"><img src="./assets/icon/facebook 1.svg" alt=""></li>
+                            <li class="lista"><img src="./assets/icon/instagram 1.svg" alt=""></li>
+                            <li class="lista"><img src="./assets/icon/twitter 1.svg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="menuFooter">
+                        <ul class="listasMenu">
+                            <li class="listasFooter"><a href="#home">Home</a></li>
+                            <li class="listasFooter"><a href="#quem_somos">Quem Somos</a></li>
+                            <li class="listasFooter"><a href="#planos">Planos</a></li>
+                            <li class="listasFooter"><a href="#acervo">Livros</a></li>
+                            <li class="listasFooter"><a href="#programadores">Programadores</a></li>
+                            <li class="listasFooter"><a href="#contato">Contato</a></li>
+                            <li class="listasFooter"><a href="#footer">Footer</a></li>
+                        </ul>
+                    </div>
+                    <div class="apoioFooter">
+                        <h1 class="ApoioTitulo">Apoio</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
